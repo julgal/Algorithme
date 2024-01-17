@@ -4,5 +4,5 @@ def factorial(nb):
 
 	result = 1
 	for num in range(1, nb+1):
-		result = result * num
+		result *= num
 	return result
